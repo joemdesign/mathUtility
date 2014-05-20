@@ -10,6 +10,7 @@
 		DE62F5441912E24300D0FA14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE62F5431912E24300D0FA14 /* Foundation.framework */; };
 		DE62F5471912E24300D0FA14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE62F5461912E24300D0FA14 /* main.m */; };
 		DE62F54B1912E24300D0FA14 /* mathUtility.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE62F54A1912E24300D0FA14 /* mathUtility.1 */; };
+		DE62F5531912E26E00D0FA14 /* MathUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DE62F5521912E26E00D0FA14 /* MathUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		DE62F5461912E24300D0FA14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE62F5491912E24300D0FA14 /* mathUtility-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mathUtility-Prefix.pch"; sourceTree = "<group>"; };
 		DE62F54A1912E24300D0FA14 /* mathUtility.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = mathUtility.1; sourceTree = "<group>"; };
+		DE62F5511912E26E00D0FA14 /* MathUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUtility.h; sourceTree = "<group>"; };
+		DE62F5521912E26E00D0FA14 /* MathUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				DE62F5461912E24300D0FA14 /* main.m */,
+				DE62F5511912E26E00D0FA14 /* MathUtility.h */,
+				DE62F5521912E26E00D0FA14 /* MathUtility.m */,
 				DE62F54A1912E24300D0FA14 /* mathUtility.1 */,
 				DE62F5481912E24300D0FA14 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE62F5531912E26E00D0FA14 /* MathUtility.m in Sources */,
 				DE62F5471912E24300D0FA14 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
